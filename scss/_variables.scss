@@ -1,0 +1,20 @@
+$color-letra: rgb(150, 148, 148);
+$btn-ios: rgb(50, 191, 191);
+$btn-mac: rgb(97, 2, 152);
+$color-footer: rgba(199, 193, 193, 0.918);
+
+%boton_general{
+    width: 199px;
+    height: 40px;
+    border-radius: 40px;
+
+}
+
+%b-ios{
+    background-color: $btn-ios;
+    color: white;
+    font-weight: 500;
+    border: transparent;
+
+
+}
