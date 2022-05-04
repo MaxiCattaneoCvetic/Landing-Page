@@ -81,6 +81,18 @@ div button {
   border: 3px solid black;
 }
 
+@media screen and (max-width: 999px) {
+  .header__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .b {
+    width: 40%;
+  }
+}
 .grid__main__contain {
   display: grid;
   grid-template-areas: "sheader sheader sheader sheader sheader" "sheader sheader sheader sheader sheader" "img img aside aside aside " "img img aside aside aside " "img img aside aside aside ";
@@ -225,6 +237,54 @@ img {
   margin-top: 2%;
 }
 
+@media screen and (max-width: 999px) {
+  .grid__main__contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid__main__contain img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .aside h3 {
+    text-align: center;
+  }
+  .aside p {
+    text-align: center;
+  }
+
+  .flex-containter-d {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .flex-item {
+    margin-top: 5%;
+  }
+  .flex-item p {
+    width: 50%;
+    text-align: center;
+  }
+
+  .flex__empresa {
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+  }
+
+  .main_button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .descarga {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+}
 footer {
   background-color: rgba(199, 193, 193, 0.918);
   display: flex;
@@ -273,6 +333,35 @@ footer {
   text-decoration: none;
   color: rgb(150, 148, 148);
   font-weight: bold;
+}
+
+@media screen and (max-width: 999px) {
+  footer {
+    margin-top: 10%;
+    flex-direction: column;
+    height: auto;
+    gap: 25px;
+  }
+
+  .logo {
+    margin-top: 3%;
+    margin-left: 8%;
+    width: 10%;
+  }
+
+  .nav {
+    margin-left: 5%;
+  }
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .redes a i {
+    font-size: 3rem;
+    align-self: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

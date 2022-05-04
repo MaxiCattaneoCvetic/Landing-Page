@@ -80,3 +80,20 @@ div{
     border: 3px solid black;
 
 }
+
+@media screen and (max-width: 999px){
+
+
+    .header__bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .b{
+        width: 40%;
+    }
+
+
+}

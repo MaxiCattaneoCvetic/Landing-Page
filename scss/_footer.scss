@@ -53,3 +53,37 @@ footer{
         }
     }
 }
+
+@media screen and (max-width: 999px){
+
+    footer{
+        margin-top:10%;
+        flex-direction: column;
+        height: auto;
+        gap: 25px;
+    }
+.logo{
+    margin-top: 3%;
+    margin-left: 8%;
+    width: 10%;
+}
+.nav{
+    margin-left: 5%;
+
+    ul{ flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        
+
+    }
+}
+    .redes a{
+        i{
+            font-size: 3rem;
+            align-self: center;
+        }
+    }
+
+
+
+}
